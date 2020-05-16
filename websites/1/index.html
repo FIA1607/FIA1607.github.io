@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li class="nav_item"><a href="#" class="title">Название</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Об игре</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Скачать игру</a></li>
+                <li class="nav_item"><a href="#" class="nav_link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <div class="slider_block">
+            <img src="img/slider.jpg" alt="slider" class="slider_img">
+        </div>
+    </section>
+
+    <section class="news">
+        <div class="container">
+            <h2 class="news_title">Новости, обновления</h2>
+            <div class="news_block">
+                <ul class="news_list">
+                    <li class="news_item">Обновление 1: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui commodi, deserunt ducimus modi officia praesentium nostrum suscipit illo nemo amet minus, saepe reprehenderit mollitia harum labore dolores quas voluptatum molestias.</li>
+                    <li class="news_item">Обновление 2: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui commodi, deserunt ducimus modi officia praesentium nostrum suscipit illo nemo amet minus, saepe reprehenderit mollitia harum labore dolores quas voluptatum molestias.</li>
+                    <li class="news_item">Обновление 3: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui commodi, deserunt ducimus modi officia praesentium nostrum suscipit illo nemo amet minus, saepe reprehenderit mollitia harum labore dolores quas voluptatum molestias.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container">
+            <h2 class="feedback_title">Отзывы</h2>
+            <div class="feedback_block">
+                <dl class="feedback_list">
+                    <dt class="feedback_name">Ваня</dt>
+                    <dd class="feedback_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui commodi, deserunt ducimus modi officia praesentium nostrum suscipit illo</dd>
+                    <dt class="feedback_name">Леха</dt>
+                    <dd class="feedback_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui commodi, deserunt ducimus modi officia praesentium nostrum suscipit illo</dd>
+                    <dt class="feedback_name">Санек</dt>
+                    <dd class="feedback_content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui commodi, deserunt ducimus modi officia praesentium nostrum suscipit illo</dd>
+                </dl>
+
+                <div class="feedback_add">
+                    <h2 class="feedback_title2">Написать отзыв</h2>
+                    <form class="feedback_forms" action="#">
+                        <input name="name" class="addname" required placeholder="Введитя имя" type="text" id="feedname">
+                        <textarea class="addfeedback" required placeholder="Введитя отзыв" name="feedback" id="feedbody"></textarea>
+                        <button class="add" id="addfeed">Отправить</button>
+                    </form>              
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer_nav">
+            <li class="footer_navitem"><a href="#">Главная</a></li>
+            <li class="footer_navitem"><a href="#">Об игре</a></li>
+            <li class="footer_navitem"><a href="#">Скачать игру</a></li>
+        </ul>
+        <div class="contacts">
+            <h3 class="contacts_title">Контакты</h3>
+            <ul class="contacts_list">
+                <li class="contacts_item">Почта</li>
+                <li class="contacts_item">Телефон</li>
+                <li class="contacts_item">Адрес</li>
+            </ul>
+        </div>
+        <a href="#" class="vk"><div class="vk_logo"></div></a>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

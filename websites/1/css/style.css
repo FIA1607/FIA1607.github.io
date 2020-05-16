@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100px;
+    margin: 0 40px 0 40px;
+}
+
+header .navigation .nav_item{
+    display: inline-block;
+    list-style: none;
+    padding: 0 50px 0 50px;
+    font-size: 25px;
+}
+
+header .navigation .nav_item .nav_link{
+    color: chocolate;
+}
+
+header .navigation .nav_item .title{
+    color: brown;
+    font-size: 60px;
+}
+
+.slider {
+    background-color: grey;
+    height: 700px;
+}
+
+.slider .slider_block .slider_img{
+    display: block;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.news{
+    min-height: 800px;
+    padding: 60px 150px;
+}
+
+.news .news_title{
+    font-size: 50px;
+}
+
+.news .news_block{
+    margin: 40px 0 0 100px;
+}
+
+.news .news_item{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.feedback{
+    min-height: 800px;
+    padding: 60px 150px;
+    background-color: grey;
+}
+
+.feedback .feedback_title{
+    font-size: 50px;
+}
+
+.feedback .feedback_block{
+    display: flex;
+    justify-content: space-around;
+    min-height: 622px;
+    padding-bottom: 42px;
+}
+
+.feedback .feedback_block .feedback_list{
+    margin-top: 40px;
+    width: 50%;
+}
+
+.feedback .feedback_block .feedback_list .feedback_name{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feedback .feedback_block .feedback_list .feedback_content{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-left: 5%;
+}
+
+.feedback .feedback_title2{
+    font-size: 35px;
+}
+
+.feedback .feedback_add .feedback_forms{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback .feedback_block .feedback_add {
+    margin-top: 40px;
+     width: 30%;
+    background-color: white;
+}
+
+.feedback .feedback_block .feedback_add .addname{
+    margin: 20px auto;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.feedback .feedback_block .feedback_add .addfeedback{
+    resize: none;
+    margin: 20px auto;
+    height: 300px;
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.feedback .feedback_block .feedback_add .add{
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 40px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 2px solid red;
+    background-image: linear-gradient(to top, red 0%, red 100%);
+    border-radius: 10px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.vk{
+    margin: auto 0;
+    border-radius: 100%;
+}
+
+.vk .vk_logo{
+    width: 150px;
+    height: 150px;
+    background: url('../icons/vk.png') center center/cover no-repeat;
+}
+
+.footer_nav{
+    margin: auto 0;
+    font-size: 25px;
+}
+
+.footer_nav .footer_navitem{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.contacts{
+    margin: auto 0;;
+}
+
+.contacts .contacts_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: -80px;
+}
+
+.contacts .contacts_item{
+    font-size: 20px;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+

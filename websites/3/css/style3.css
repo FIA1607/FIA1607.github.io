@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100px;
+    margin: 0 40px 0 40px;
+}
+
+header .navigation .nav_item{
+    display: inline-block;
+    list-style: none;
+    padding: 0 50px 0 50px;
+    font-size: 25px;
+}
+
+header .navigation .nav_item .nav_link{
+    color: chocolate;
+}
+
+header .navigation .nav_item .title{
+    color: brown;
+    font-size: 60px;
+}
+
+.container{
+    min-height: 500px;
+    background-color: grey;
+}
+
+.download{
+    display: flex;
+    justify-content: space-around;
+}
+
+.download_title{
+    font-size: 60px;
+    margin: 0 0 50px 100px;
+    padding-top: 50px;
+}
+
+.download .download_list{
+    margin-left: 50px;
+}
+
+.download .download_item{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.download .download_link{
+    height: 250px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download_play, .download_app{
+    width: 50%;
+    height: 40%;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 2px solid red;
+    background-image: linear-gradient(to top, red 0%, red 100%);
+    border-radius: 10px;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.vk{
+    margin: auto 0;
+    border-radius: 100%;
+}
+
+.vk .vk_logo{
+    width: 150px;
+    height: 150px;
+    background: url('../icons/vk.png') center center/cover no-repeat;
+}
+
+.footer_nav{
+    margin: auto 0;
+    font-size: 25px;
+}
+
+.footer_nav .footer_navitem{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.contacts{
+    margin: auto 0;;
+}
+
+.contacts .contacts_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: -80px;
+}
+
+.contacts .contacts_item{
+    font-size: 20px;
+    list-style-type: none;
+    padding-bottom: 20px;
+}

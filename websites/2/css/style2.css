@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 100px;
+    margin: 0 40px 0 40px;
+}
+
+header .navigation .nav_item{
+    display: inline-block;
+    list-style: none;
+    padding: 0 50px 0 50px;
+    font-size: 25px;
+}
+
+header .navigation .nav_item .nav_link{
+    color: chocolate;
+}
+
+header .navigation .nav_item .title{
+    color: brown;
+    font-size: 60px;
+}
+
+.container{
+    min-height: 1000px;
+    padding: 40px 150px;
+    background-color: grey;
+}
+
+.container .main_title{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.container .info{
+    font-size: 20px;
+    padding: 0 300px 0 50px;
+}
+
+.container .slider{
+    height: 500px;
+    width: 60%;
+    margin: 40px auto;
+    font-size: 40px;
+    color: red;
+    background: url(../img/shield.jpg) center center/cover no-repeat;
+    text-align: right;
+    padding-top: 15%;
+}
+
+.container .list_ability{
+    margin-left: 150px;
+}
+
+.container .ability{
+    font-size: 30px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.vk{
+    margin: auto 0;
+    border-radius: 100%;
+}
+
+.vk .vk_logo{
+    width: 150px;
+    height: 150px;
+    background: url('../icons/vk.png') center center/cover no-repeat;
+}
+
+.footer_nav{
+    margin: auto 0;
+    font-size: 25px;
+}
+
+.footer_nav .footer_navitem{
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.contacts{
+    margin: auto 0;;
+}
+
+.contacts .contacts_title{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: -80px;
+}
+
+.contacts .contacts_item{
+    font-size: 20px;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
